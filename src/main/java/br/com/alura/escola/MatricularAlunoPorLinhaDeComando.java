@@ -1,4 +1,4 @@
-package br.com.alura.escola;
+package br.com.alura.escola.academico;
 
 import br.com.alura.escola.academico.aplicacao.aluno.matricular.MatricularAluno;
 import br.com.alura.escola.academico.aplicacao.aluno.matricular.MatricularAlunoDto;
