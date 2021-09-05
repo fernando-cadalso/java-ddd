@@ -21,6 +21,7 @@ public class GerarSeloParaAlunoMatriculado extends Ouvinte {
 		CPF cpf = (CPF) evento.informacoes().get("cpf");
 		Selo novato = new Selo(cpf, "Novato");
 		seloRepo.salvar(novato);
+		System.out.println("Selo registrado com sucesso!");
 	}
 
 	@Override
